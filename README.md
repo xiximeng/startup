@@ -1,5 +1,11 @@
 # 实验室技能表 v0.10
 
+### Table of Contents
+
+- [Deep Learning](#deep-learning)
+
+- [Computer Science](#computer-science)
+
 ## Deep Learning
 
 ### Courses & Books
@@ -94,7 +100,11 @@
 
 ### Python
 
-- 在线学习 [Python | Codecademy](https://www.codecademy.com/learn/python)
+#### Learning Python
+
+- 如果没有编程基础，推荐在线学习 [Python | Codecademy](https://www.codecademy.com/learn/python)
+
+- 如果有不错的编程基础，则推荐随便找个简单的教程看一下基本的语法，比如[廖雪峰的 Python 教程](http://www.liaoxuefeng.com/wiki/001374738125095c955c1e6d8bb493182103fac9270762a000)
 
 - 推荐书籍
   [《Python核心编程2》](https://www.gitbook.com/book/wizardforcel/core-python-2e/details)
@@ -102,6 +112,6 @@
 
 #### Deep Learning Framework
 
-基于 Python 的，或者提供了 Python 接口的 DL 框架主要有 TensorFlow, MXNet, Caffe(PyCaffe)等
+基于 Python 的或者提供了 Python 接口的 DL 框架主要有 TensorFlow, MXNet, Caffe(自带PyCaffe)等
 
 这些框架都有官方文档，学习上手都非常方便
