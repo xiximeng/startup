@@ -4,7 +4,15 @@
 
 - [Deep Learning](#deep-learning)
 
+  - [Courses & Books](#courses-&-books)
+
+  - [Paper Reading](#paper-reading)
+
 - [Computer Science](#computer-science)
+
+  - [Python](#python)
+
+- [Deep Reinforcement Learning](#deep-reinforcement-learning)
 
 ## Deep Learning
 
@@ -18,6 +26,8 @@
   同时，课程作业是用 Python 来实现的，可以帮助熟悉 Python
 
   使用服务器的 iPython Notebook 或者在自己的电脑上安装一个都是比较方便的
+
+  关于学习 Python，可以参考后面的章节 [Python](#python)
 
 - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
 
@@ -114,4 +124,31 @@
 
 基于 Python 的或者提供了 Python 接口的 DL 框架主要有 TensorFlow, MXNet, Caffe(自带PyCaffe)等
 
-这些框架都有官方文档，学习上手都非常方便
+这些框架都有官方文档或者他人写的教学文档，学习上手都非常方便
+
+## Deep Reinforcement Learning
+
+### Reinforcement Learning
+
+- Reinforcement Learning: An Introduction
+  [[Book]](https://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
+
+  一本非常好的 RL 教材，可能是最好的
+
+### DRL Papers
+
+- Playing Atari with Deep Reinforcement Learning
+  [[pdf]](https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf)
+
+  NIPS 2013版的 DQN，开创性的一篇文章
+
+- Human-level control through deep reinforcement learning
+  [[pdf]](http://www.nature.com/nature/journal/v518/n7540/pdf/nature14236.pdf)
+
+  Nature 2015版的 DQN，在之前版本的基础上，用固定的参数计算目标 Q 值
+
+#### More Papers
+
+- [Deep Reinforcement Learning Papers](https://github.com/muupan/deep-reinforcement-learning-papers)
+
+- [Deep Reinforcement Learning Papers](https://github.com/junhyukoh/deep-reinforcement-learning-papers)
