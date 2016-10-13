@@ -4,7 +4,7 @@
 
 - [Deep Learning](#deep-learning)
 
-  - [Courses & Books](#courses-&-books)
+  - [Courses & Books](#courses--books)
 
   - [Paper Reading](#paper-reading)
 
