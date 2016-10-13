@@ -11,7 +11,7 @@
 
   同时，课程作业是用 Python 来实现的，可以帮助熟悉 Python
 
-  使用服务器的 ipython notebook 或者在自己的电脑上安装一个都是比较方便的
+  使用服务器的 iPython Notebook 或者在自己的电脑上安装一个都是比较方便的
 
 - [Neural Networks for Machine Learning](https://www.coursera.org/learn/neural-networks)
 
@@ -91,3 +91,17 @@
 - [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision)
 
 ## Computer Science
+
+### Python
+
+- 在线学习 [Python | Codecademy](https://www.codecademy.com/learn/python)
+
+- 推荐书籍
+  [《Python核心编程2》](https://www.gitbook.com/book/wizardforcel/core-python-2e/details)
+  或者 《Python高级编程》
+
+#### Deep Learning Framework
+
+基于 Python 的，或者提供了 Python 接口的 DL 框架主要有 TensorFlow, MXNet, Caffe(PyCaffe)等
+
+这些框架都有官方文档，学习上手都非常方便
