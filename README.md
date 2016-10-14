@@ -25,7 +25,8 @@
 
   同时，课程作业是用 Python 来实现的，可以帮助熟悉 Python
 
-  使用服务器的 iPython Notebook 或者在自己的电脑上安装一个都是比较方便的
+  使用服务器的 [iPython Notebook](http://jupyter-notebook.readthedocs.io/en/latest/)
+  或者在自己的电脑上安装一个都是比较方便的
 
   关于学习 Python，可以参考后面的章节 [Python](#python)
 
@@ -45,14 +46,12 @@
 做 cv 怎么都绕不开的一方向就是 Classification，可以说是很多研究方向的基石
 
 - ImageNet classification with deep convolutional neural networks
-  (2012), A. Krizhevsky et al. (Hinton)
   [[pdf]](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 
   AlexNet，关于此论文，有很多人写过论文笔记，可以自行搜索，比如
   [1](http://www.gageet.com/2014/09140.php) & [2](http://zhangliliang.com/2014/07/01/paper-note-alexnet-nips2012/)
 
 - Very deep convolutional networks for large-scale image recognition
-  (2014), K. Simonyan and A. Zisserman
   [[pdf]](https://arxiv.org/pdf/1409.1556.pdf)
 
   VGG-Net，上篇和此篇都是在 cv 里面引用量很高而且绕不开的论文
@@ -61,14 +60,14 @@
 
   但由于业界更迭很快，二者也可以算作是比较旧的文章了
 
-- Going deeper with convolutions (2015), C. Szegedy et al. (Google)
+- Going deeper with convolutions
   [[pdf]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Szegedy_Going_Deeper_With_2015_CVPR_paper.pdf)
 
   GoogleNet，引入了 Inception module，有很好的 performance
 
   作为打败了 VGG 的同年模型，好像用的人没有 VGG 多，估计是太大了而且效果也没有好太多
 
-- Deep residual learning for image recognition (2016), K. He et al. (Microsoft)
+- Deep residual learning for image recognition
   [[pdf]](https://arxiv.org/pdf/1512.03385.pdf)
 
   不好意思，我还没看，但是用的人已经很多了
@@ -77,8 +76,9 @@
 
 有效的特征对于 Detection 是极为重要，所以说 Classification 是绕不开的
 
+Detection 是很多方向的基石
+
 - Rich feature hierarchies for accurate object detection and semantic segmentation
-  (2014), R. Girshick et al.
   [[pdf]](http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Girshick_Rich_Feature_Hierarchies_2014_CVPR_paper.pdf)
 
   Region-based CNN，打开了 CNN 用于 Detection 的大门
@@ -87,20 +87,34 @@
   [2](https://zhuanlan.zhihu.com/p/22287237?refer=startdl)
 
 - Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition
-  (2014),  K. He et al. (Microsoft)
   [[pdf]](https://arxiv.org/pdf/1406.4729v2.pdf)
 
   突破了传统 CNN 输入大小固定的限制
 
-- Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
-  (2015), S. Ren et al.
-  [[pdf]](http://papers.nips.cc/paper/5638-faster-r-cnn-towards-real-time-object-detection-with-region-proposal-networks.pdf)
+- Fast R-CNN (2015)
+  [[pdf]](https://arxiv.org/pdf/1504.08083.pdf)
 
-  我没看，这个方向还有一些比较新的，如 ION, YOLO, R-FCN 等等，其中 YOLO 是不使用 region-proposal 的
+  除此之外，还有
+  [Faster R-CNN](https://arxiv.org/pdf/1506.01497.pdf),
+  [ION](https://arxiv.org/pdf/1512.04143v1.pdf),
+  [YOLO](https://arxiv.org/pdf/1506.02640v5.pdf),
+  [R-FCN](https://arxiv.org/pdf/1605.06409v2.pdf)
 
-#### Object Tracking
+#### Understanding CNN
+
+有助于理解 CNN 里面发生了什么事情
+
+- Visualizing and Understanding Convolutional Networks
+  [[pdf]](https://www.cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
+
+  用反卷积可视化了 feature maps，有助于理解 CNN
+
+- Understanding image representations by measuring their equivariance and equivalence
+  [[pdf]](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lenc_Understanding_Image_Representations_2015_CVPR_paper.pdf)
 
 #### More Papers
+
+在 cv 里面还有很多的方向，比如 Object Tracking, Image Caption 等
 
 - [Awesome - Most Cited Deep Learning Papers](https://github.com/terryum/awesome-deep-learning-papers)
 
@@ -130,8 +144,8 @@
 
 ### Reinforcement Learning
 
-- Reinforcement Learning: An Introduction
-  [[Book]](https://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
+- [Reinforcement Learning: An Introduction](https://webdocs.cs.ualberta.ca/~sutton/book/ebook/the-book.html)
+  by Richard S. Sutton and Andrew G. Barto
 
   一本非常好的 RL 教材，可能是最好的
 
